@@ -1,0 +1,107 @@
+
+
+
+.formulario_contacto {
+    width: 100%;
+    height: 790px;
+    background: var(--background-box);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario_caja {
+    
+    height: 670px;
+    width: 80%;
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.formulario_foto {
+    width: 30%;
+    height: 72%;
+    background: rgba(54, 53, 53, 0.466);
+}
+.form {
+    width: 70%;
+    height: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_titulo {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: var(--fuente-letras);
+    text-shadow: var(--sombra-texto);
+    text-align: center;
+    margin-bottom: 18px;
+}
+.form_texto {
+    font-size: 1.3em;
+    font-family: var(--fuente-letras);
+    color: var(--color-parrafos);
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.form_nombre, .form_email {
+    font-size: 1em;
+    font-family: var(--fuente-letras);
+    color: var(--color-parrafos);
+    background: #fff;
+    width: 90%;
+    height: 25px;
+    margin-top: 18px;
+   
+}
+
+input {
+    box-sizing: border-box;
+}
+
+.input_nombre, .input_email {
+    border: none;
+    width: 90%;
+    height: 25px;
+    outline-color: var(--color-parrafos);
+}
+
+.input_nombre::placeholder, .input_email::placeholder {
+    font-size: .8em;
+    font-family: var(--fuente-letras);
+}
+
+.form_asunto {
+    font-size: 1em;
+    width: 90%;
+    height: 40px;
+    outline: none;
+    border: none;
+    margin: 20px;
+}
+
+.form_mensaje {
+    font-size: 1em;
+    width: 90%;
+    height: 60px;
+    outline: none;
+    border: none;
+}
+
+.form_asunto::placeholder, .form_mensaje::placeholder {
+    font-size: .9em;
+    font-family: var(--fuente-letras);
+}
+
+
+
+
+
