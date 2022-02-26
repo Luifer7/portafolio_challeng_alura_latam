@@ -33,8 +33,8 @@
 }
 
 .caja_certificado {
-    width: 33%;
-    height: 80%;
+    width: 28%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
