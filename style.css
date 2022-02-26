@@ -38,10 +38,12 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .logo_svg {
     width: 50px;
     height: 50px;
 }
+
 .logo_nombre {
     color: var(--color-titulos);
     letter-spacing: 2px;
@@ -67,7 +69,7 @@ body {
     text-decoration: none;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    font-size: 1em;
 }
 .menu_link:nth-child(6) {
     color: var(--color-logo);
@@ -82,8 +84,10 @@ body {
 .datos_personales {
     
     width: 85%;
-    height: 370px;
+    height: 390px;
     margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
 
     display: flex;
     align-items: center;
@@ -127,7 +131,7 @@ h4 {
     height: 30%;
     width: 100%;
     margin: 0;
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-family: var(--fuente-letras);
     color: var(--color-parrafos);
     text-justify: newspaper;
@@ -136,7 +140,7 @@ h4 {
 .redes {
     grid-area: tres;
     height: 100%;
-    width: 100%; 
+    width: 70%; 
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -159,11 +163,13 @@ h4 {
 }
 
 .foto {
-    border: 1px solid black;
-    width: 28%;
-    height: 90%;
+    
+    width: 40%;
+    height: 100%;
     border-radius: 50%;
-    background: rgba(0, 0, 0, 0.705);
+    background-image: url(img/foto.jpg);
+    background-size: cover;
+    background-position-x: center;
 }
 
 
@@ -214,3 +220,98 @@ p {
     height: 60%;
     line-height: 60px;
 }
+
+@media (max-width: 1115px) {
+
+        .foto {
+            width: 40%;
+            height: 80%;
+        }
+
+        .menu {
+            width: 80%;
+        }
+
+        .menu_link {
+            font-size: .8em;
+        } 
+}
+
+@media (max-width: 900px) {
+
+    .foto {
+        width: 30%;
+        height: 60%;
+    }
+
+    .menu {
+        width: 90%;
+    }
+
+    .menu_link {
+        font-size: .7em;
+    } 
+}
+
+
+@media (max-width: 768px) {
+
+    /* Header*/
+    .logo_svg {
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+    }
+    
+    .logo_nombre {
+       
+        margin-left: 5px;
+        font-size: 1.5em;
+    }
+    
+                
+    .menu {
+         width: 70%;
+         display: flex;
+         align-items: center;
+         justify-content: center;   
+    }   
+
+    .menu_link {
+        display: none;
+    }    
+
+    .menu_link:nth-child(6) {
+            display: block;
+            font-size: 1em;
+    }
+
+    /* Presentacion*/
+
+    h4 {
+        font-size: 1.5em;
+    }
+
+    .parrafo_sobremi {
+        font-size: .9em;
+    }
+
+    .redes {
+        width: 90%;
+    }
+
+    .redes a {
+        font-size: .8em;
+    }
+
+    .foto {
+        height: 50%;
+    }
+
+
+       
+
+    
+}
+
+
