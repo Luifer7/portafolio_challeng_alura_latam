@@ -1,0 +1,71 @@
+
+
+.formacion_academica {
+
+    margin-top: 50px;
+    width: 100%;
+    height: 580px;
+    background: var(--background-box);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+}
+
+.texto_formacion {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: var(--fuente-letras);
+    text-shadow: var(--sombra-texto);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.formacion_caja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+}
+
+.caja_certificado {
+    width: 33%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.certificado {
+    height: 80%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+}
+
+.bi-mortarboard-fill {
+    width: 100px;
+    height: 100px;
+}
+ 
+.caja_certificado p {
+    font-size: var(--fuente-letras);
+    text-shadow: var(--sombra-texto);
+    color: var(--color-letras);
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
+
+
+
