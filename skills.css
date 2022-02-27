@@ -87,7 +87,7 @@
    
         display: grid;
         grid-template-columns: repeat(3, 33%);
-        grid-template-rows: 245px;
+        grid-template-rows: 200px 200px;
     }
 
 
