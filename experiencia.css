@@ -86,3 +86,43 @@
 }
 
 
+
+
+
+
+@media (max-width: 768px) {
+
+    .experiencia_encriptador {
+        margin-top: 40px;
+    }
+    .experiencia_encriptador, .experiencia_ahorcado, .experiencia_calculadora {
+    
+       flex-direction: column;
+    }   
+        
+    .experiencia_info {
+
+        width: 60%;
+        height: 90%;
+        place-content:initial;
+        margin-top: 30px;
+    
+    }
+
+    .experiencia_info p {
+      
+        font-size: 1em;
+       
+    }
+
+    .experiencia_info p:nth-child(2) {
+      
+        font-size: .9em;
+       
+    }
+
+
+
+}
+
+
