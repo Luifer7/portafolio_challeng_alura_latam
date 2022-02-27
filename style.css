@@ -408,6 +408,11 @@ p {
        
     }
 
+    .foto {
+        width: 40%;
+        height: 60%;
+    }
+
     .sobre_mi_parrafo  {
         
         font-size: .8em;
