@@ -1,5 +1,5 @@
 
-
+/*Variables*/
 :root {
     --color-letras: rgba(0, 0, 0, 0.952);
     --color-titulos: rgba(53, 106, 167, 0.63);
@@ -19,6 +19,11 @@ body {
   box-sizing: border-box;
   font-size: 15px;
 }
+
+
+
+
+
 
 
 
@@ -151,23 +156,23 @@ h4 {
 .redes {
     grid-area: tres;
     height: 100%;
-    width: 70%; 
+    width: 90%; 
     display: flex;
     align-items: center;
     justify-content: center; 
 }
 
-.redes a {
-    height: 100%;
-    width: 25%;
-    color: var(--color-letras);
-    
-    text-decoration: none;
-    text-shadow: var(--sombra-texto);
-    font-size: 1em;
-    font-weight: bold;
-    font-family: var(--fuente-letras);
-}
+    .redes a {
+        height: 100%;
+        width: 25%;
+        color: var(--color-letras);
+        
+        text-decoration: none;
+        text-shadow: var(--sombra-texto);
+        font-size: 1em;
+        font-weight: bold;
+        font-family: var(--fuente-letras);
+    }
 
 .bi-github, .bi-linkedin, .bi-youtube, .bi-instagram {
     color: var(--color-iconos);
@@ -209,28 +214,37 @@ h5  {
     margin: 0;  
 }
 
-.sobre_mi_titulo {
-    font-size: 2em;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-family: var(--fuente-letras);
-    text-shadow: var(--sombra-texto);
-}
 
 p {
     margin: 0;
 }
 
-.sobre_mi_parrafo {
-    font-size: 1.2em;
+.sobre_mi_parrafo  {
     font-family: var(--fuente-letras);
     color: var(--color-parrafos);
+    text-justify: newspaper;
+    font-size: 1.1em;
 }
+
 
 .firma_sobremi {
     height: 60%;
     line-height: 60px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUEERIES*/
+
+
 
 @media (max-width: 1115px) {
 
@@ -275,10 +289,7 @@ p {
         font-size: .7em;
        
     } 
-    .redes {
-        width: 100%;
-        justify-content: center;
-    }
+   
 }
 
 
@@ -289,22 +300,18 @@ p {
     .encabezado {
         justify-content: space-between;
     }
-
    .logo {
        width: 40%;
    }
    .menu {
     display: none;
     }
-
     .contacto {
         width: 40%;
     }
     .contacto_link {
         font-size: 1.1em;
     }
-
-
     .logo_svg {
         width: 50px;
         height: 50px;
@@ -317,41 +324,56 @@ p {
         font-size: 1.5em;
     }
     
-                
-   
-      
+    
 
-   
 
     /* Presentacion*/
 
     h4 {
-        font-size: 1.5em;
+        font-size: 1.8em;
     }
+ 
 
-    .parrafo_sobremi {
-        font-size: .9em;
-    }
 
     .redes {
-        width: 90%;
+        width: 100%;
+        height: 50%;
     }
 
     .redes a {
-        font-size: .8em;
+        font-size: .9em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
     }
 
     .foto {
         height: 50%;
     }
-  
+}
+
+
+/* Sobre mi section*/
+
+.sobre_mi_titulo {
+    font-size: 1.3em;
+    
 }
 
 @media (max-width: 550px) {
     
+    .datos_personales {
+        flex-direction: column-reverse;
+        height: 420px;
+        align-items: center;
+        justify-content: center;
+    }
+
     .encabezado {
         justify-content: space-around;
     }
+
     .logo {
         margin-right: 50px;
     }
@@ -373,16 +395,32 @@ p {
         width: 40px;
         height: 40px;
     }
+    h4 {
+        font-size: 1.2em;
+    }
+
+    .parrafo_sobremi {
+        font-size: .8em;
+    }
+
+    .redes a {
+        font-size: .7em;
+       
+    }
+
+    .sobre_mi_parrafo  {
+        
+        font-size: .8em;
+    }
+
+
 
 }
 
 
-@media (max-width: 360px) {
+@media (max-width: 360px) { 
    
    
-    
- 
-    
     .contacto_link {
         font-size: .8em;
     }
@@ -399,11 +437,19 @@ p {
         
     }
 
-    
+    .redes a {
+        font-size: .6em;
+       
+    }
 
-    
+    /* Foto circular*/
 
-    
+    .foto {
+        width: 40%;
+        height: 40%;
+    }
+
+  
 }
 
 
