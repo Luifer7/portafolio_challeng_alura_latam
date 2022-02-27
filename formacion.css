@@ -69,3 +69,38 @@
 
 
 
+
+
+
+@media (max-width: 768px)  {
+
+
+    .formacion_academica {
+        margin-top: 10px;
+        height: 1724px;
+
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 90%;
+        
+    }
+
+    .formacion_caja {
+        flex-direction: column;
+    }
+
+    .caja_certificado {
+        width: 40%;
+        height: 60%;
+        margin-bottom: 20px;
+     
+    }
+    
+
+    
+
+}
+
+
+
+
+
