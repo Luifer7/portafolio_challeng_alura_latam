@@ -5,7 +5,7 @@
 .skills {
    
     width: 85%;
-    height: 245px;
+    height: 250px;
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -67,3 +67,29 @@
     margin-top: 90px;
     
 }
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    
+    .skills {
+        height: 500px;
+    }
+    .hobbies {
+        height: 500px;
+    }
+
+    .caja_skills {
+   
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+        grid-template-rows: 245px;
+    }
+
+
+}
+
