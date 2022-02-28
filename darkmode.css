@@ -1,0 +1,142 @@
+
+
+/*
+
+:root {
+    --titulo-darkmode: rgba(240, 239, 239, 0.795);
+    --parrafos-darkmode: rgba(240, 239, 239, 0.527);
+    --backgraund-darkmode: rgb(20, 23, 26);
+    --background-body: rgb(35, 36, 37);
+}
+
+
+body {
+    background: var(--background-body);
+}
+
+
+.logo_svg {
+    color: var(--titulo-darkmode);
+}
+
+.menu_link {
+    color: var(--titulo-darkmode);
+}
+
+
+
+.parrafo_sobremi {
+    color: var(--parrafos-darkmode);
+}
+
+.redes a {
+    color: var(--titulo-darkmode);
+}
+
+
+
+
+
+
+.sobre_mi {
+    background: var(--backgraund-darkmode)
+}
+.sobre_mi h5 {
+    color: var(--titulo-darkmode);
+}
+
+.sobre_mi_parrafo {
+    color: var(--parrafos-darkmode);
+}
+
+
+
+
+.titulo_skills {
+    color: var(--titulo-darkmode);
+}
+.caja_skills_icon {
+    background: var(--backgraund-darkmode);
+}
+.texto_html {
+    color: var(--parrafos-darkmode);
+}
+.bi-filetype-html{
+    color: var(--titulo-darkmode);
+}
+
+
+.titulo_hobbies {
+    color: var(--titulo-darkmode);
+}
+
+
+
+
+
+.formacion_academica {
+    background: var(--backgraund-darkmode);
+}
+
+.texto_formacion {
+    color: var(--titulo-darkmode);
+}
+.certificado {
+    background: var(--background-body);
+}
+.bi-mortarboard-fill{
+    color: var(--titulo-darkmode);
+}
+.formacion_academica p {
+    color: var(--titulo-darkmode);
+}
+
+
+
+
+
+.experiencia_titulo {
+    color: var(--titulo-darkmode);
+}
+
+.experiencia_info p {
+    color: var(--parrafos-darkmode);
+}
+.experiencia_info p:nth-child(2) {
+    color: var(--parrafos-darkmode);
+}
+
+.experiencia_botones button:nth-child(2) {
+    color: var(--titulo-darkmode);
+}
+
+
+
+
+.formulario_contacto {
+    background: var(--backgraund-darkmode);
+}
+.form_titulo {
+    color: var(--titulo-darkmode);
+}
+.form_texto {
+    color: var(--parrafos-darkmode);
+}
+
+
+
+
+
+
+
+.footer_texto {
+    color: var(--titulo-darkmode);
+}
+
+
+
+
+
+
+*/
+
