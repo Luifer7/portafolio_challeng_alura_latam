@@ -88,21 +88,7 @@ h3 {
     position: relative;
     transition: 1s;
 }
-.menu_link:after {
-   
-    position: absolute;
-    content: "";
-    margin: 0 auto;
-    width: 80%;
-    height: 2px;
-    background: var(--color-titulos);
-    bottom: 0;
-    left: 10%;
-    border-radius: 10px;
-}
-.menu_link:hover::after {
-    display: none;
-}
+
 .menu_link:hover::before {
    
     position: absolute;

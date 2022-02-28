@@ -5,9 +5,10 @@
 .skills {
    
     width: 85%;
-    height: 250px;
+    height: 300px;
     margin: 0 auto;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .titulo_skills {
@@ -60,16 +61,14 @@
 /* Seccion Hobies*/
 .hobbies {
     
-    margin-top: 80px;
+   
     width: 85%;
-    height: 245px;
+    height: 300px;
     margin: 0 auto;
-    margin-top: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     
 }
-
-
-
 
 
 
